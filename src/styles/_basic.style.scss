@@ -1,0 +1,16 @@
+*{
+    box-sizing: border-box;
+}
+ 
+.error{
+    border: 1px solid red;
+    outline: 1px solid red;
+}
+
+button:disabled {
+    cursor: not-allowed !important;
+}
+
+input{
+    padding: 0.5rem;
+}

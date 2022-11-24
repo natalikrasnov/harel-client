@@ -1,0 +1,31 @@
+.table{
+    border: 1px solid black;
+    min-width: 80vw;
+    margin: 2rem;
+
+    .table_header{
+        background-color: rgba(128, 128, 128, 0.3);
+        display: flex;
+        width: 100%;
+    }
+
+    .table_body{
+        border-top: 1px solid black;
+        width: 100%;
+        display: flex;
+
+        &>label{
+            cursor: pointer;
+        }   
+    }
+
+    label{        
+        overflow-wrap: break-word;
+        width: 20%;
+            border-left: 1px solid black;
+            padding: 0.5rem 0;
+            &:first-child{
+                border: none;
+            }
+        }
+}
